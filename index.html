@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="routingApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Routing Practice</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="js/Tab1/tab1Style.css">
+</head>
+<body>
+	<header>
+		<div ui-sref="home">Home</div>
+		<div ui-sref="tab1">Tab 1</div>
+		<div ui-sref="tab2">Tab 2</div>
+		<div ui-sref="tab3">Tab 3</div>
+	</header>
+	
+	<div class="changeable" ui-view>
+		
+		
+	</div>
+	
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+<script src="js/app.js"></script>
+<script src="js/Home/homeCtrl.js"></script>
+<script src="js/Tab1/tab1Ctrl.js"></script>
+<script src="js/Tab2/tab2Ctrl.js"></script>
+<script src="js/Tab3/tab3Ctrl.js"></script>
+
+</html>
