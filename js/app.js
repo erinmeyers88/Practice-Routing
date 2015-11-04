@@ -29,7 +29,7 @@ angular.module("routingApp", ["ui.router"])
 				templateUrl: "js/Tab3/tab3Temp.html",
 				controller: "tab3Ctrl"
 				
-			})
+			});
 			
 			
 	$urlRouterProvider.otherwise("/");

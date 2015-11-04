@@ -5,19 +5,19 @@
 	<title>Routing Practice</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="js/Tab1/tab1Style.css">
+	<link rel="stylesheet" href="js/Tab2/tab2Style.css">
+	<link rel="stylesheet" href="js/Tab3/tab3Style.css">
+	<link rel="stylesheet" href="js/Directives/countryDirective/countryDirectiveStyle.css">
 </head>
-<body>
-	<header>
-		<div ui-sref="home">Home</div>
-		<div ui-sref="tab1">Tab 1</div>
-		<div ui-sref="tab2">Tab 2</div>
-		<div ui-sref="tab3">Tab 3</div>
+<body class="indexBody">
+	<header class="topHeader">
+		<div class="topMenuItem" ui-sref="home">Home</div>
+		<div class="topMenuItem" ui-sref="tab1">Tab 1</div>
+		<div class="topMenuItem" ui-sref="tab2">Tab 2</div>
+		<div class="topMenuItem" ui-sref="tab3">Tab 3</div>
 	</header>
 	
-	<div class="changeable" ui-view>
-		
-		
-	</div>
+	<div ui-view></div>
 	
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
@@ -27,5 +27,7 @@
 <script src="js/Tab1/tab1Ctrl.js"></script>
 <script src="js/Tab2/tab2Ctrl.js"></script>
 <script src="js/Tab3/tab3Ctrl.js"></script>
+<script src="js/Services/countryService.js"></script>
+<script src="js/Directives/countryDirective/countryDirective.js"></script>
 
 </html>

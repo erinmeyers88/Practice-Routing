@@ -1,0 +1,29 @@
+<div class="countryDirective">
+	<header class="countryHeader">
+		<div class="leftColumn">
+			Country
+		</div>
+
+		<div class="centerColumn">
+			Native Name
+		</div>
+
+		<div class="rightColumn">
+			Population
+		</div>
+	</header>
+	<div ng-repeat="country in countryinfo" class="countrySection">
+		<div class="leftColumn">
+			{{country.name}}
+
+		</div>
+
+		<div class="centerColumn">
+			{{country.nativeName}}
+		</div>
+
+		<div class="rightColumn">
+			{{country.population}}
+		</div>
+	</div>
+</div>

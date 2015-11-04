@@ -1,12 +1,10 @@
-body {
-	display: flex;
-	flex-direction: column;
+.indexBody {
 	margin: 0;
 	padding: 0;
-	background-color: #ddbbff;
+	background-color: pink;
 }
 
-header {
+.topHeader {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -17,7 +15,7 @@ header {
 	height: 75px;
 }
 
-header > div {
+.topMenuItem {
 	display: flex;
 	width: 20%;
 	background-color: #ddbbff;
@@ -27,8 +25,6 @@ header > div {
 }
 
 .changeable {
-	background-color: #ddbbff;
-	height: 700px;
 	display: flex;
 	direction: column;
 }
